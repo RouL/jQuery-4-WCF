@@ -4,8 +4,8 @@
 		<packagename>jQuery</packagename>
 		<packagedescription>jQuery integration for the WCF 1.1</packagedescription>
 		<isunique>1</isunique>
-		<version>1.5.2</version>
-		<date>2011-04-17</date>
+		<version>1.7.1</version>
+		<date>2011-12-29</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -20,5 +20,10 @@
 	<instructions type="install">
 		<files>files.tar</files>
 		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+
+	<instructions type="update" fromversion="1.5.2">
+		<files>files.tar</files>
+		<eventlistener>eventlistener_update_171.xml</eventlistener>
 	</instructions>
 </package>

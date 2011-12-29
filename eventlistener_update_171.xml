@@ -6,12 +6,6 @@
 			<eventname>shouldDisplay</eventname>
 			<inherit>1</inherit>
 			<listenerclassfile>lib/system/event/listener/JQueryTemplateListener.class.php</listenerclassfile>
-		</eventlistener>
-		<eventlistener>
-			<eventclassname>Template</eventclassname>
-			<eventname>shouldDisplay</eventname>
-			<inherit>1</inherit>
-			<listenerclassfile>lib/system/event/listener/JQueryTemplateListener.class.php</listenerclassfile>
 			<environment>admin</environment>
 		</eventlistener>
 	</import>
